@@ -1,7 +1,7 @@
 //If you're packaging with browserify, you'll need to use 'fontpath-test-fonts/lib/***.ttf' etc
 var fs = require('fs');
 var path = require('path');
-var slug = require('slug');
+var slug = require('slugify');
 
 var files = fs.readdirSync('lib');
 

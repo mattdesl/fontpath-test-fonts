@@ -5,3 +5,16 @@ The fonts are generated and stored in the `lib` folder, using the CommonJS expor
 ```js
 var Font = require('fontpath-test-fonts/lib/OpenBaskerville-0.0.53.otf');
 ```
+
+
+# building
+
+You need to first install fontpath:
+```npm install fontpath -g```
+
+Then you can run the build script. You may need to chmod it first:
+
+```
+chmod +x ./build.sh
+./build.sh
+``` 
