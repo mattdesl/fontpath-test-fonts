@@ -1,0 +1,37 @@
+{
+  "name": "fontpath-test-fonts",
+  "version": "0.0.0",
+  "description": "some fontpath-generated files for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt DesLauriers",
+  "license": "MIT",
+  "devDependencies": {
+    "fontpath": "0.0.1"
+  },
+  "dependencies": {
+    "slug": "^0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattdesl/fontpath-test-fonts"
+  },
+  "keywords": [
+    "fontpath",
+    "test",
+    "fonts",
+    "typeface",
+    "ttf",
+    "woff",
+    "otf",
+    "outline",
+    "vector",
+    "path"
+  ],
+  "bugs": {
+    "url": "https://github.com/mattdesl/fontpath-test-fonts/issues"
+  },
+  "homepage": "https://github.com/mattdesl/fontpath-test-fonts"
+}
