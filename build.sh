@@ -13,7 +13,7 @@ do
 	s=${s##*/};
 	echo -n "$s: "; 
 	# s=${s%.*};
-	fontpath "$i" -o "lib/$s.js" -s 64 --commonJS; 
+	fontpath "$i" -o "lib/$s.js" -s 32 --commonJS; 
 done
 
 IFS=$SAVEIFS
