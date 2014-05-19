@@ -6,6 +6,9 @@ The fonts are generated and stored in the `lib` folder, using the CommonJS expor
 var Font = require('fontpath-test-fonts/lib/OpenBaskerville-0.0.53.otf');
 ```
 
+# font size
+
+The fonts are generated with 32 pt size. The size of the generated font may affect its kerning and positioning, depending on the font size you are rendering it at. 
 
 # building
 
