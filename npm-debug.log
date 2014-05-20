@@ -1,0 +1,157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/Matt/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/tmp.tgz
+12 verbose folder .
+13 info prepublish fontpath-test-fonts@0.0.3
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/Matt/.npm/1f1177db-tar.lock
+16 silly lockFile b2762f0c-45559-0-7122673154808581-tmp-tgz tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/tmp.tgz
+17 verbose lock tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/tmp.tgz /Users/Matt/.npm/b2762f0c-45559-0-7122673154808581-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile b2762f0c-45559-0-7122673154808581-tmp-tgz tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/tmp.tgz
+21 silly lockFile b2762f0c-45559-0-7122673154808581-tmp-tgz tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/tmp.tgz
+22 verbose tar unpack /var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/tmp.tgz
+23 silly lockFile 610d0280-45559-0-7122673154808581-package tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/package
+24 verbose lock tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/package /Users/Matt/.npm/610d0280-45559-0-7122673154808581-package.lock
+25 silly lockFile b2762f0c-45559-0-7122673154808581-tmp-tgz tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/tmp.tgz
+26 verbose lock tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/tmp.tgz /Users/Matt/.npm/b2762f0c-45559-0-7122673154808581-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry index.js
+31 silly gunzTarPerm extractEntry lib/Alegreya-Bold.otf.js
+32 silly gunzTarPerm extractEntry lib/Alegreya-Italic.otf.js
+33 silly gunzTarPerm extractEntry lib/Alegreya-Regular.otf.js
+34 silly gunzTarPerm extractEntry lib/Inconsolata.otf.js
+35 silly gunzTarPerm extractEntry lib/OpenBaskerville-0.0.75.ttf.js
+36 silly gunzTarPerm extractEntry lib/OpenBaskerville-0.0.75.woff.js
+37 silly gunzTarPerm extractEntry lib/OpenSans-Bold.ttf.js
+38 silly gunzTarPerm extractEntry lib/OpenSans-Italic.ttf.js
+39 silly gunzTarPerm extractEntry lib/OpenSans-Regular.ttf.js
+40 silly gunzTarPerm extractEntry readme.md
+41 silly lockFile 610d0280-45559-0-7122673154808581-package tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/package
+42 silly lockFile 610d0280-45559-0-7122673154808581-package tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/package
+43 silly lockFile b2762f0c-45559-0-7122673154808581-tmp-tgz tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/tmp.tgz
+44 silly lockFile b2762f0c-45559-0-7122673154808581-tmp-tgz tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/tmp.tgz
+45 verbose tar pack [ '/Users/Matt/.npm/fontpath-test-fonts/0.0.3/package.tgz',
+45 verbose tar pack   '/var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/package' ]
+46 verbose tarball /Users/Matt/.npm/fontpath-test-fonts/0.0.3/package.tgz
+47 verbose folder /var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/package
+48 silly lockFile 610d0280-45559-0-7122673154808581-package tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/package
+49 verbose lock tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/package /Users/Matt/.npm/610d0280-45559-0-7122673154808581-package.lock
+50 silly lockFile 29b6f90b-ath-test-fonts-0-0-3-package-tgz tar:///Users/Matt/.npm/fontpath-test-fonts/0.0.3/package.tgz
+51 verbose lock tar:///Users/Matt/.npm/fontpath-test-fonts/0.0.3/package.tgz /Users/Matt/.npm/29b6f90b-ath-test-fonts-0-0-3-package-tgz.lock
+52 silly lockFile 610d0280-45559-0-7122673154808581-package tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/package
+53 silly lockFile 610d0280-45559-0-7122673154808581-package tar:///var/folders/38/j6bh2gmj2hlcxzt423vz520w0000gn/T/npm-73213-LE-SW+8F/1400549545559-0.7122673154808581/package
+54 silly lockFile 29b6f90b-ath-test-fonts-0-0-3-package-tgz tar:///Users/Matt/.npm/fontpath-test-fonts/0.0.3/package.tgz
+55 silly lockFile 29b6f90b-ath-test-fonts-0-0-3-package-tgz tar:///Users/Matt/.npm/fontpath-test-fonts/0.0.3/package.tgz
+56 silly lockFile d24cee28-ontpath-test-fonts-0-0-3-package /Users/Matt/.npm/fontpath-test-fonts/0.0.3/package
+57 verbose lock /Users/Matt/.npm/fontpath-test-fonts/0.0.3/package /Users/Matt/.npm/d24cee28-ontpath-test-fonts-0-0-3-package.lock
+58 silly lockFile d24cee28-ontpath-test-fonts-0-0-3-package /Users/Matt/.npm/fontpath-test-fonts/0.0.3/package
+59 silly lockFile d24cee28-ontpath-test-fonts-0-0-3-package /Users/Matt/.npm/fontpath-test-fonts/0.0.3/package
+60 verbose tar unpack /Users/Matt/.npm/fontpath-test-fonts/0.0.3/package.tgz
+61 silly lockFile 1cb612a0-ontpath-test-fonts-0-0-3-package tar:///Users/Matt/.npm/fontpath-test-fonts/0.0.3/package
+62 verbose lock tar:///Users/Matt/.npm/fontpath-test-fonts/0.0.3/package /Users/Matt/.npm/1cb612a0-ontpath-test-fonts-0-0-3-package.lock
+63 silly lockFile 29b6f90b-ath-test-fonts-0-0-3-package-tgz tar:///Users/Matt/.npm/fontpath-test-fonts/0.0.3/package.tgz
+64 verbose lock tar:///Users/Matt/.npm/fontpath-test-fonts/0.0.3/package.tgz /Users/Matt/.npm/29b6f90b-ath-test-fonts-0-0-3-package-tgz.lock
+65 silly gunzTarPerm modes [ '755', '644' ]
+66 silly gunzTarPerm extractEntry package.json
+67 silly gunzTarPerm extractEntry .npmignore
+68 silly gunzTarPerm extractEntry index.js
+69 silly gunzTarPerm extractEntry lib/Alegreya-Bold.otf.js
+70 silly gunzTarPerm extractEntry lib/Alegreya-Italic.otf.js
+71 silly gunzTarPerm extractEntry lib/Alegreya-Regular.otf.js
+72 silly gunzTarPerm extractEntry lib/Inconsolata.otf.js
+73 silly gunzTarPerm extractEntry lib/OpenBaskerville-0.0.75.ttf.js
+74 silly gunzTarPerm extractEntry lib/OpenBaskerville-0.0.75.woff.js
+75 silly gunzTarPerm extractEntry lib/OpenSans-Bold.ttf.js
+76 silly gunzTarPerm extractEntry lib/OpenSans-Italic.ttf.js
+77 silly gunzTarPerm extractEntry lib/OpenSans-Regular.ttf.js
+78 silly gunzTarPerm extractEntry readme.md
+79 silly lockFile 1cb612a0-ontpath-test-fonts-0-0-3-package tar:///Users/Matt/.npm/fontpath-test-fonts/0.0.3/package
+80 silly lockFile 1cb612a0-ontpath-test-fonts-0-0-3-package tar:///Users/Matt/.npm/fontpath-test-fonts/0.0.3/package
+81 silly lockFile 29b6f90b-ath-test-fonts-0-0-3-package-tgz tar:///Users/Matt/.npm/fontpath-test-fonts/0.0.3/package.tgz
+82 silly lockFile 29b6f90b-ath-test-fonts-0-0-3-package-tgz tar:///Users/Matt/.npm/fontpath-test-fonts/0.0.3/package.tgz
+83 verbose chmod /Users/Matt/.npm/fontpath-test-fonts/0.0.3/package.tgz 644
+84 verbose chown /Users/Matt/.npm/fontpath-test-fonts/0.0.3/package.tgz [ 501, 20 ]
+85 silly lockFile 3a52ce78- .
+86 silly lockFile 3a52ce78- .
+87 silly publish { name: 'fontpath-test-fonts',
+87 silly publish   version: '0.0.3',
+87 silly publish   description: 'some fontpath-generated files for testing',
+87 silly publish   main: 'index.js',
+87 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+87 silly publish   author: { name: 'Matt DesLauriers' },
+87 silly publish   license: 'MIT',
+87 silly publish   dependencies: { slugify: '^0.1.0' },
+87 silly publish   repository:
+87 silly publish    { type: 'git',
+87 silly publish      url: 'https://github.com/mattdesl/fontpath-test-fonts' },
+87 silly publish   keywords:
+87 silly publish    [ 'fontpath',
+87 silly publish      'test',
+87 silly publish      'fonts',
+87 silly publish      'typeface',
+87 silly publish      'ttf',
+87 silly publish      'woff',
+87 silly publish      'otf',
+87 silly publish      'outline',
+87 silly publish      'vector',
+87 silly publish      'path' ],
+87 silly publish   bugs: { url: 'https://github.com/mattdesl/fontpath-test-fonts/issues' },
+87 silly publish   homepage: 'https://github.com/mattdesl/fontpath-test-fonts',
+87 silly publish   readme: 'Holds a few open-source test font faces for [fontpath](https://github.com/mattdesl/fontpath). This allows the various demos to all depend on centralized and versioned assets. \n\nThe fonts are generated and stored in the `lib` folder, using the CommonJS export option of the tool. The main `index.js` will require and export them dynamically. Generally, for browserify and other tools, it\'s best to require the fonts manually like so:\n\n```js\nvar Font = require(\'fontpath-test-fonts/lib/OpenBaskerville-0.0.53.otf\');\n```\n\n# font size\n\nThe fonts are generated with 32 pt size. The size of the generated font may affect its kerning and positioning, depending on the font size you are rendering it at. \n\n# building\n\nYou need to first install fontpath:\n```npm install fontpath -g```\n\nThen you can run the build script. You may need to chmod it first:\n\n```\nchmod +x ./build.sh\n./build.sh\n``` ',
+87 silly publish   readmeFilename: 'readme.md',
+87 silly publish   _id: 'fontpath-test-fonts@0.0.3',
+87 silly publish   dist: { shasum: 'c8455d2697dd08e87cbee6003a852b9b52674768' },
+87 silly publish   _from: '.' }
+88 verbose url raw fontpath-test-fonts
+89 verbose url resolving [ 'https://registry.npmjs.org/', './fontpath-test-fonts' ]
+90 verbose url resolved https://registry.npmjs.org/fontpath-test-fonts
+91 info trying registry request attempt 1 at 21:32:26
+92 http PUT https://registry.npmjs.org/fontpath-test-fonts
+93 http 403 https://registry.npmjs.org/fontpath-test-fonts
+94 error publish Failed PUT 403
+95 error Error: forbidden cannot modify pre-existing version: 0.0.3
+95 error old={"name":"fontpath-test-fonts","version":"0.0.3","description":"some fontpath-generated files for testing","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"author":{"name":"Matt DesLauriers"},"license":"MIT","dependencies":{"slugify":"^0.1.0"},"repository":{"type":"git","url":"https://github.com/mattdesl/fontpath-test-fonts"},"keywords":["fontpath","test","fonts","typeface","ttf","woff","otf","outline","vector","path"],"bugs":{"url":"https://github.com/mattdesl/fontpath-test-fonts/issues"},"homepage":"https://github.com/mattdesl/fontpath-test-fonts","_id":"fontpath-test-fonts@0.0.3","dist":{"shasum":"4499d31c21ae2c17dae8bd5d6d6e826d6bd9088b","tarball":"http://registry.npmjs.org/fontpath-test-fonts/-/fontpath-test-fonts-0.0.3.tgz"},"_from":".","_npmVersion":"1.3.24","_npmUser":{"name":"mattdesl","email":"dave.des@gmail.com"},"maintainers":[{"name":"mattdesl","email":"dave.des@gmail.com"}]}
+95 error new={"name":"fontpath-test-fonts","version":"0.0.3","description":"some fontpath-generated files for testing","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"author":{"name":"Matt DesLauriers"},"license":"MIT","dependencies":{"slugify":"^0.1.0"},"repository":{"type":"git","url":"https://github.com/mattdesl/fontpath-test-fonts"},"keywords":["fontpath","test","fonts","typeface","ttf","woff","otf","outline","vector","path"],"bugs":{"url":"https://github.com/mattdesl/fontpath-test-fonts/issues"},"homepage":"https://github.com/mattdesl/fontpath-test-fonts","readme":"Holds a few open-source test font faces for [fontpath](https://github.com/mattdesl/fontpath). This allows the various demos to all depend on centralized and versioned assets. \u000a\u000aThe fonts are generated and stored in the `lib` folder, using the CommonJS export option of the tool. The main `index.js` will require and export them dynamically. Generally, for browserify and other tools, it's best to require the fonts manually like so:\u000a\u000a```js\u000avar Font = require('fontpath-test-fonts/lib/OpenBaskerville-0.0.53.otf');\u000a```\u000a\u000a# font size\u000a\u000aThe fonts are generated with 32 pt size. The size of the generated font may affect its kerning and positioning, depending on the font size you are rendering it at. \u000a\u000a# building\u000a\u000aYou need to first install fontpath:\u000a```npm install fontpath -g```\u000a\u000aThen you can run the build script. You may need to chmod it first:\u000a\u000a```\u000achmod +x ./build.sh\u000a./build.sh\u000a``` ","readmeFilename":"readme.md","_id":"fontpath-test-fonts@0.0.3","dist":{"shasum":"c8455d2697dd08e87cbee6003a852b9b52674768","tarball":"http://registry.npmjs.org/fontpath-test-fonts/-/fontpath-test-fonts-0.0.3.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"mattdesl","email":"dave.des@gmail.com"},"maintainers":[{"name":"mattdesl","email":"dave.des@gmail.com"}]}: fontpath-test-fonts
+95 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+95 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+95 error     at Request.EventEmitter.emit (events.js:98:17)
+95 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+95 error     at Request.EventEmitter.emit (events.js:117:20)
+95 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+95 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+95 error     at _stream_readable.js:920:16
+95 error     at process._tickCallback (node.js:415:13)
+96 error If you need help, you may report this *entire* log,
+96 error including the npm and node versions, at:
+96 error     <http://github.com/npm/npm/issues>
+97 error System Darwin 12.4.0
+98 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+99 error cwd /projects/fontpath-modules/fontpath-test-fonts
+100 error node -v v0.10.26
+101 error npm -v 1.4.3
+102 verbose exit [ 1, true ]

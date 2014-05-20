@@ -3,7 +3,7 @@ Holds a few open-source test font faces for [fontpath](https://github.com/mattde
 The fonts are generated and stored in the `lib` folder, using the CommonJS export option of the tool. The main `index.js` will require and export them dynamically. Generally, for browserify and other tools, it's best to require the fonts manually like so:
 
 ```js
-var Font = require('fontpath-test-fonts/lib/OpenBaskerville-0.0.53.otf');
+var Font = require('fontpath-test-fonts/lib/OpenSans-Regular.ttf');
 ```
 
 # font size
